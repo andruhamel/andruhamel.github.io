@@ -19,6 +19,21 @@ body {
     flex: 1;
 }
 
+#user-credentials {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-picture {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+#profile-picture img {
+    width: 145px;
+    height: 145px;
+}
+
 #header #user-name {
     text-transform: uppercase;
     font-weight: 600;
