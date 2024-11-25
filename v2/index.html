@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="section" id="header">
+            <div id="photo-container">
+                <img src="./img/profile-pic.png" alt="profile picture">
+            </div>
+            <div id="info-container">
+                <div id="name">ANDRII MELNYCHUK</div>
+                <div id="job-title">Senior Full Stack Software Engineer</div>
+                <div id="location">Lviv, Ukraine | <a href="https://www.linkedin.com/in/andruhamel" target="_blank"
+                        rel="noopener noreferrer">LinkenIn</a></div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Full stack software engineer with over 10 years of experience in software development. Specialized in
+                building scalable web, mobile, desktop and console applications using JavaScript, Node.js, React, React
+                Native. Skilled in cloud services (AWS, GCP), refactoring and redesigning of legacy software, splitting
+                monolith into micro-services. Have experience in technical interviewing, team leadership and mentoring.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Key skills</h2>
+            <ul>
+                <li><b>Programming languages</b>: JavaScript, TypeScript;</li>
+                <li><b>Frameworks & libraries</b>: Node.js, React, React Native, Nest.js, Express.js;</li>
+                <li><b>Databases</b>: MySql, PostgreSQL, MongoDB, DynamoDB;</li>
+                <li><b>API</b>: REST, GraphQL;</li>
+                <li><b>Infrastructure</b>: docker, docker-compose, aws cdk, CI/CD (atlassian bamboo, circleCI, gitlab,
+                    github actions);</li>
+                <li><b>Clouds</b>: AWS (lambda/step function, RDS, Secret Manager, SQS, cdk, DynamoDB, API Gateway), GCP
+                    (BigQuery);</li>
+                <li><b>Version control</b>: git (GitHub, GitLab, Bitbucket);</li>
+                <li><b>Other</b>: RabitMQ, Redis, jest, mocha, chai, sinon, eleventy, contentful.</li>
+            </ul>
+        </div>
+        <div id="profesional-experience" class="section">
+            <h2>Professional experience</h2>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Senior full stack JavaScript Developer</h3> | <span class="company-location">Ciklum — L'viv,
+                            Ukraine
+                        </span> | <span class="date-range">September 2021 — Present</span>
+                    </div>
+                    <ul>
+                        <li>Migrated micro-services and their dependencies to the latest version of Node.js that brought
+                            new features, performance and security improvements, bug fixes. Decommissioned old libraries
+                            and frameworks that aren't supported any more.</li>
+                        <li>Migrated part of micro-services written on Python to Node.js that allowed teams to use
+                            single programming language, unify technology stack, frameworks and libraries, approach to
+                            software testing, deployment, dependency management and updates, documentation generation.
+                        </li>
+                        <li>Redesigned legacy micro-services written on old node.js callback approach to use promises,
+                            async/await, rx.js, Nest.js. It allowed to use the same framework, project structure,
+                            approach to testing, deployment and API documentation generation for all the micro-services.
+                        </li>
+                        <li>All new code covered by unit and integration tests with coverage of 80+ percent.</li>
+                        <li>Automated API documentation generation for the clients of our services.</li>
+                        <li>Built CLI tool to automatically migrate existing static site pages from old to a new CMS.
+                        </li>
+                        <li>Built and documented process of code review, code style, deployment, rollback to prior
+                            version in case of fail, logging and monitoring etc.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>FullStack Node.js, React, React Native engineer</h3> | <span class="company-location">Lohika
+                            Capgemini — L'viv, Ukraine</span> | <span class="date-range">October 2020 — September 2021
+                        </span>
+                    </div>
+                    <ul>
+                        <li>Redesigned workflow to apply for a job on staffing platform that allowed to get the same
+                            look and feel for both web and mobile version of the feature, step away from old and
+                            unsupported libraries and frameworks, improve security, performance, code quality.</li>
+                        <li>Implemented GraphQL BFF that allowed to reduce amount of data sent to mobile version of the
+                            feature, hide complexity and limitations of legacy micro-services, moved data composition
+                            from front-end to back-end, business logic moved from client to server keeping the code in
+                            one place, making web and mobile app more lightweight and less error prove because of
+                            deviations between data composition and API called on clients.</li>
+                        <li>Implemented mobile version of the feature to reach clients on mobile platforms (smartphones,
+                            tablets etc.).</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Node.js backend engineer</h3> | <span class="company-location">Binariks Inc. – L'viv,
+                            Ukraine</span> | <span class="date-range">June 2020 – October 2020</span>
+                    </div>
+                    <ul>
+                        <li>Built server-less application to collect data from wearable medical devices allowing
+                            hospitals, clinics and insurance companies to provide better services for their patients or
+                            client.</li>
+                        <li>Built service for data ingestion from third party API to improve patient’s medical record,
+                            health monitoring and alerting of GP and insurance company in case of deviation from normal
+                            health conditions.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Node.js backend engineer</h3> | <span class="company-location">Lohika Altran – L'viv,
+                            Ukraine</span> | <span class="date-range">October 2018 – June 2020</span>
+                    </div>
+                    <ul>
+                        <li>Redesigned monolith application into micro-services (REST API) that allows to develop and
+                            scale each service separately from each other, use databases that better suite for storing
+                            and handling data of certain service. New services became more lightweight, easier to
+                            understand, faster to develop, test, deploy.</li>
+                        <li>Setup docker development environment so new developers don’t have to spend so much time on
+                            learning complexity of the system and can become productive and efficient faster. Reduced
+                            time for setup of local development environment from 3 weeks to couple of hours.</li>
+                        <li>Increased code coverage from 40% to 90%.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Software Engineer</h3> | <span class="company-location">N-iX – L'viv, Ukraine</span> | <span
+                            class="date-range">May 2017 – May 2018</span>
+                    </div>
+                    <ul>
+                        <li>Redesigned set of monolith web sites into micro-services. Extracting common functionality as
+                            authorization and authentication into its own service (REST API) allowed to get single and
+                            central place for identity and access management allowing SSO and single source of true.
+                            Smaller features has been extracted into node.js libraries to ensure code reuse and reduce
+                            duplication of code and bug fixes of same function in different places.</li>
+                        <li>Increased code coverage to 95%.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Web/UI developer (PHP/JS)</h3> | <span class="company-location">Intellias – L'viv,
+                            Ukraine</span> | <span class="date-range">February 2016 – May 2017</span>
+                    </div>
+                    <ul>
+                        <li>Implemented new work resource planning module within existing application suite. Extending
+                            our suite that our clients have been already using for years allowed to eliminate necessity
+                            in third party software and implementation of custom data synchronization interfaces for
+                            incompatible applications.</li>
+                        <li>Archived 90% code coverage.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>EAI Developer (Delphi/PHP)</h3> | <span class="company-location">Intellias – L'viv,
+                            Ukraine</span> | <span class="date-range">March 2014 – February 2016</span>
+                    </div>
+                    <ul>
+                        <li>Implemented SOAP data exchange API (PHP) to import/export information from our application
+                            suite into third party applications. The automation allowed to keep two incompatible systems
+                            in sync eliminating manual data input from users.</li>
+                        <li>Implemented Window Service (Delphi) for database synchronization. Allowed to do data
+                            synchronization by configured schedule.</li>
+                        <li>Developed custom themes for web portal to meet customer’s corporate design.</li>
+                        <li>Integration of third party solutions into our web portal.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Master’s Degree in Computer Science</h3>
+                    <div>Ivan Puluj National Technical University - Ternopil, Ukraine</div>
+                    <div>2010 – 2011</div>
+                </li>
+                <li>
+                    <h3>Bachelor’s Degree in Computer Science</h3>
+                    <div>Ivan Puluj National Technical University - Ternopil, Ukraine</div>
+                    <div>2005-2007</div>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Certificates</h2>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Cyber Security: From Beginner to Expert</h3> | <span class="company-location">Udemy</span> |
+                        <span class="date-range">2024</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Ultimate AWS Certified Solution Architect Associate</h3> | <span
+                            class="company-location">Udemy</span> |
+                        <span class="date-range">2022</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Learn React by building and deploying production ready app</h3> | <span
+                            class="company-location">Udemy</span> |
+                        <span class="date-range">2018</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>M101JS: MongoDB for Node.js Developers</h3> | <span class="company-location">Udemy</span> |
+                        <span class="date-range">2017</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Ukrainian (Native);</li>
+                <li>English (B2, Upper-Intermediate).</li>
+            </ul>
+        </div>
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div class="position">
+                        <h3>Sensa Investigation Hub</h3> | <span class="company-location">Ciklum</span> | <span
+                            class="date-range"><a
+                                href="https://www.symphonyai.com/financial-services/sensa-investigation-hub/"
+                                target="_blank" rel="noopener noreferrer">SymphonyAI</a></span>
+                    </div>
+                    <div>The financial crime investigation platform. Uses capabilities of generative AI to drive faster,
+                        more consistent AML investigations. Consolidate risk detection across AML, KYC/CDD, sanctions
+                        screening and payment fraud for a single, subject-centric view for investigations. Arm every
+                        investigator with a generative AI-powered assistant that can source, analyze, and summarize data
+                        at scale in seconds.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: JavaScript ES6/TypeScript, Node.js, React, Nest.js, Azure,
+                        Copilot AI.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Product cards MFE</h3> | <span class="company-location">Ciklum</span> | <span
+                            class="date-range"><a href="https://www.tui.co.uk/" target="_blank"
+                                rel="noopener noreferrer">TUI</a></span>
+                    </div>
+                    <div>Product cards micro front-end is located on the TUI’s main holiday booking web site and allows
+                        to provide list of hotels matching search criterion.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: JavaScript ES6/TypeScript, Node.js, AWS, cdk, eleventy, SSG.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Cloud-based retail management solutions</h3> | <span class="company-location">Ciklum</span>
+                        | <span class="date-range"><a href="https://traxretail.com/" target="_blank"
+                                rel="noopener noreferrer">Trax retail</a></span>
+                    </div>
+                    <div>The platform allows clients to capture images of products in stores from a variety of sources
+                        and then analyze photos down to the pixel level. Object-recognition and placement-detection
+                        engines extract data from images with industry-leading accuracy. Business-intelligence
+                        algorithms combine image data with sales and strategy data to provide deep insights on KPIs that
+                        matter most to the customer. Harness computer vision, deep learning, and artificial intelligence
+                        to sell more in stores.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: JavaScript ES6/TypeScript, Node.js, Express.js, Nest.js,
+                        AngularJS, Angular, AWS, GCP, Event-driven architecture, Jest, docker, Jenkins, Git, MySQL,
+                        MongoDB, OpenAPI.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Staffing platform</h3> | <span class="company-location">Lohika Capgemini</span>
+                        | <span class="date-range"><a href="https://www.bluecrewjobs.com/find-work" target="_blank"
+                                rel="noopener noreferrer">Bluecrew</a></span>
+                    </div>
+                    <div>Bluecrew is the first hourly workforce-as-a-service provider combining W-2 labor, a workforce
+                        management platform, and data + analytics for workplaces who have hourly workers and fluctuating
+                        demand.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: JavaScript ES6/TypeScript, React, React Native, Apollo client
+                        and server, BaseWeb, React Hook Form, Redux.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Server-less solution for insurance company</h3> | <span class="company-location">Binariks
+                            Inc.</span>
+                    </div>
+                    <div>Primary care provider exclusively serving Medicare patients.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: Node.js, TypeScript, serverless framework, AWS S3, Lambda/Step
+                        functions.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Zume Pizza, pizza made by robots</h3> | <span class="company-location">Lohika Altran</span>
+                        | <span class="company-location">Zume Pizza</span>
+                    </div>
+                    <div>Automated production and delivery of pizza, which would largely be made by robots and cooked en
+                        route to customers. The platform also included algorithms to predict customer choices, and
+                        planned to partner with businesses to provide other robot-prepared meal components, such as
+                        salads and desserts.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: Node.js, Express, JavaScript, PostgreSQL, Redis, RabbitMQ,
+                        Angular.js, Vue.js, Mocha, Chai, Sinon, Jenkins, Heroku, docker, docker-compose.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>On-Track Cost Management Application</h3> | <span class="company-location">N-iX</span>
+                    </div>
+                    <div>Solution for procurement and supply chain consultancy. Help organizations reduce costs, improve
+                        internal processes and up-skill their procurement teams so that they can realize cost savings
+                        faster.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: PHP5, JavaScript, JQuery, MySQL, HTML, CSS, SASS, PHPUnit,
+                        Codeception, Apache, Docker, Docker-compose.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>MCS Scheduler</h3> | <span class="company-location">Intellias</span>
+                    </div>
+                    <div>Resource planning and task management system. Task scheduling as a reaction to an incident or
+                        planned maintenance that simplifies work and material resource planning. Multi-view scheduling
+                        boards with rich filtering capabilities, access control, skill matching and validation to find
+                        best executor for a task based on working/non-working time and worker’s timetable.</div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: PHP5, JavaScript, Oracle, PL/SQL, Sencha ExtJs, Zend Framework,
+                        HTML, CSS, Jasmine, PHPUnit.
+                    </div>
+                </li>
+                <li>
+                    <div class="position">
+                        <h3>Web portal for contract and property management</h3> | <span
+                            class="company-location">Intellias</span>
+                    </div>
+                    <div class="tools">
+                        <h3>Tools and technologies</h3>: PHP5, JavaScript, Oracle, PL/SQL, Sencha ExtJs, Zend Framework,
+                        HTML, CSS, Jasmine, PHPUnit.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
