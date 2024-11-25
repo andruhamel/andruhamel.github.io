@@ -1,0 +1,162 @@
+@import "fonts.css";
+
+body {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    width: 600px;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#header {
+    flex: 1;
+}
+
+#cv-body {
+    flex: 1;
+}
+
+#user-credentials {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-picture {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+#profile-picture img {
+    width: 145px;
+    height: 145px;
+}
+
+#header #user-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+#role-to-apply {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+#contacts {
+    display: flex;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 0;
+    border-top: 1px solid lightgrey;
+}
+
+#contacts div {
+    flex: 4;
+}
+
+#contacts div i {
+    margin-right: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+#key-technologies {
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-top: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+#technology-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-row {
+    display: flex;
+    flex: 1;
+}
+
+.table-row div {
+    padding: 2px 0;
+}
+
+.technology-section-name {
+    flex: 1;
+}
+
+.technology-list {
+    flex: 3;
+    border-left: 1px solid lightgrey;
+    padding-left: 10px !important;
+}
+
+.cv-section-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px solid lightgrey;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.section-name {
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-list-item-wrapper {
+    flex: 3;
+}
+
+.section-list-item {
+    margin-bottom: 10px;
+    border-left: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.education-details, .job-details, #cv-body .user-feedback {
+    border-top: 1px solid lightgrey;
+    padding-top: 5px;
+}
+
+.university-degree, .job-title, #cv-body .user-name {
+    font-weight: 600;
+}
+
+.university-name, .company-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.company-location {
+    color: dimgrey;
+}
+
+.date-period, #cv-body .user-position {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.job-details ul {
+    margin: 5px 0;
+}
+
+.job-details, #cv-body .user-feedback {
+    font-size: 14px;
+}
